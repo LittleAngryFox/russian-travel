@@ -5,7 +5,7 @@
 @import url(./__image/place__image.css);
 
 .place {
-    margin: 0 0 80px 0;
+    margin: 0 0 92px 0;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
