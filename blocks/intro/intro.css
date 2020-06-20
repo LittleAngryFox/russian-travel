@@ -3,8 +3,8 @@
 @import url(./__list/inro__list.css);
 
 .intro {
-    margin: 0 auto 92px auto;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 0 92px 0;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -23,6 +23,6 @@
 @media screen and (max-width: 320px)
 {    
     .intro {
-        margin-bottom: 64px;
+        padding-bottom: 64px;
     }
 }
