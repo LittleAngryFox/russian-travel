@@ -1,4 +1,6 @@
 .photo-grid__list {
+    
+    min-height: 671px;
     padding: 0;
     margin: 0;
     list-style-type: none;

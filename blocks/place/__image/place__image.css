@@ -2,9 +2,9 @@
 
     margin: 0;
     width: 100%;
-    max-height: 100%;
+    max-height: 460px;
    
-    object-fit: cover;
+    object-fit: contain;
 
     transition: box-shadow 0.2s ease-in-out
 }
