@@ -1,0 +1,20 @@
+.footer__copytight {
+    font-size: 14px;
+    line-height: 1.14;
+    /* identical to box height, or 114% */
+
+    text-align: right;
+
+}
+
+@media screen and (max-width:600px)
+{    
+    .footer__copytight {
+        font-size: 14px;
+        line-height: 1;
+        text-align: left;
+        /* identical to box height, or 100% */
+
+
+    }
+}

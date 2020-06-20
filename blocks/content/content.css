@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 148px 0 148px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .content{
+        padding: 0 48px 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .content{
+        padding: 0 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .content{
+        padding: 0 16px 0 16px;
+    }
+}
