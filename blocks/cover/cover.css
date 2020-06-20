@@ -9,7 +9,6 @@
     margin: 0 auto;
 
     max-width: 1184px;
-    /*width: 100%;*/
     width: calc(100% + 200px);
     position: relative;
     left: -100px;
