@@ -13,6 +13,6 @@
 **Технологии**
 * Grid
 * Flex
-* @meadia
+* @media
 * и др.
 
