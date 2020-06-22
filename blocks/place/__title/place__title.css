@@ -28,3 +28,10 @@
         /* identical to box height, or 109% */
     }
 }
+
+@media screen and (max-width: 320px)
+{    
+    .place__title {
+        padding: 0 16px 0 16px;
+    }
+}

@@ -3,10 +3,10 @@
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
-    width: calc(100% + 200px);
-    position: relative;
-    left: -100px;
-    margin: 0 auto 92px auto;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 48px 92px 48px;
     box-sizing: border-box;
 }
 
@@ -15,19 +15,21 @@
     .photo-grid {
         width: 100%;
         left: 0;
-        margin: 0 auto 88px auto;
+        padding: 0 calc((100% - 768px)/10.66 + 24px) 92px calc((100% - 768px)/10.66 + 24px);
     }
 }
+
 @media screen and (max-width: 768px)
 {    
     .photo-grid {
-        margin: 0 auto 88px auto;
+        padding: 0 calc((100% - 320px)/56 + 16px) 88px calc((100% - 320px)/56 + 16px);
     }
 }
+
 
 @media screen and (max-width: 320px)
 {    
     .photo-grid {
-        margin: 0 auto 64px auto;
+        padding: 0 16px 64px 16px;
     }
 }

@@ -1,8 +1,10 @@
-@import url(./_url-heading/place__website_url-heading.css);
-@import url(./_link/place__wesite_link.css);
+@import url(./__url-heading/place__website__url-heading.css);
+@import url(./__link/place__wesite__link.css);
 
 
 .place__website {
+    display: flex;
+    flex-direction: column;
 
     justify-self: start;
     align-self: end;
