@@ -16,6 +16,7 @@
 @media screen and (max-width: 768px)
 {    
     .footer {
+        margin: 88px 0 0 0;
         padding: 0 24px 28px 24px;
     }
 }
@@ -23,7 +24,7 @@
 @media screen and (max-width:600px)
 {    
     .footer {
-
+        margin: 64px 0 0 0;
         padding: 0 16px 24px 16px;
 
         grid-template-columns: 1fr;
